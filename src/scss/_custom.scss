@@ -1,0 +1,16 @@
+// Rewrite Bootstrap variables
+$rojo: #F34F51;
+$verde: #0098AE;
+$oscuro: #212121;
+
+// Asign colors to bootstrap
+$primary : $rojo;
+$secondary : $verde;
+$dark : $oscuro;
+
+/** Tipografia **/
+$display-font-weight : 900;
+$headings-font-weight : 700;
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
